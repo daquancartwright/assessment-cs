@@ -70,33 +70,33 @@ for(let arr of arrays){
 // How long does it take to double every number in a given 
 // array? 
 
-```
-tinyArray
-insert 37.2 μs
-append 85 μs
+// ```
+// tinyArray
+// insert 37.2 μs
+// append 85 μs
 
-smallArray
-insert 24.2 μs
-append 12.8 μs
+// smallArray
+// insert 24.2 μs
+// append 12.8 μs
 
-mediumArray
-insert 97.3 μs
-append 35.8 μs
+// mediumArray
+// insert 97.3 μs
+// append 35.8 μs
 
-largeArray
-insert 6.7843 ms
-append 303.9 μs
+// largeArray
+// insert 6.7843 ms
+// append 303.9 μs
 
-extraLargeArray
-insert 870.7696 ms
-append 2.1518 ms
-```
+// extraLargeArray
+// insert 870.7696 ms
+// append 2.1518 ms
+// ```
 
-```
-Explanation:
+// ```
+// Explanation:
 
-The doublerAppend method uses .push() which adds an element to the end of the array. Which is fast because it doesn't require any rearrangement. The doublerInsert method uses .unshift(). Which adds an element to the beginning of an array, causing all elements to shift to make space for the shifted element. This means that it has a longer execution time that scales with the size of the array, so as the array size grows the time becomes exponentially longer to execute.
-```
+// The doublerAppend method uses .push() which adds an element to the end of the array. Which is fast because it doesn't require any rearrangement. The doublerInsert method uses .unshift(). Which adds an element to the beginning of an array, causing all elements to shift to make space for the shifted element. This means that it has a longer execution time that scales with the size of the array, so as the array size grows the time becomes exponentially longer to execute.
+// ```
 
 
 
